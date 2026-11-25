@@ -1,0 +1,41 @@
+baseURL = 'https://jake-schuler.dev'
+languageCode = 'en-us'
+title = "Jake Schuler"
+theme = "enervoid"
+
+[menus]
+#  [[menus.main]]
+#    name = 'Posts'
+#    pageRef = '/post'
+#    weight = 10
+
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 20
+
+[params]
+  avatar = "https://avatars.githubusercontent.com/u/190303312"
+
+  [[params.socials]]
+      link = "https://github.com/jake-schuler"
+      icon = "devicon-github-original"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$','$$'], ['\\[','\\]']]
+        inline = [['$','$'], ['\\(','\\)']]
+
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+
+[markup.highlight]
+  noClasses = true
+  codeFences = true
+  guessSyntax = true
+  tabWidth = 4
+  style = "monokai"

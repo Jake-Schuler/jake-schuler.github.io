@@ -1,0 +1,1 @@
+I'm a student and developer still in HS, I'm intrested in robotics, mechanical engineering, data analyst, and general computer infrastructure. I'm president of the OWHS Minecraft Club as well as student leadership (scouting/strategy) on FRC team 2826 Wave Robotics.
